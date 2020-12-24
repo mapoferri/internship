@@ -4,7 +4,7 @@ Here there are the codes used for the containerization of apps [PredGPI](https:/
 
 # Requiremnets
 
-Install Docker and Docker Compose (latest version) on your machine.
+Install [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/) on your machine.
 Python3 and all other dependecies of the applications are already in the personalized image.
 
 These infrastructure has been organized to work on input multifasta files, as dowloaded from Uniprot database. 
