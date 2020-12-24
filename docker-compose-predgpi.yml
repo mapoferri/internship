@@ -1,0 +1,22 @@
+version: '3.4'
+services:
+        predgpi_app:
+                build: ./predgpi
+                environment:
+                #input_dir_pred = /home/volume in env file
+                        - INPUT_DIR="${INPUT_DIR_PRED}"
+                volumes:
+                        - name-volume:${INPUT_DIR_PRED}
+                #deploy:
+                        #mode: replicated
+                        #replicas: 6
+
+volumes:
+        #input_volume:
+        #        external: true
+        name-volume:
+                driver: local
+                driver_opts:
+                        type: none
+                        device: ${INPUT_PATH}
+                        o: bind
