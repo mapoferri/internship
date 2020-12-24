@@ -1,6 +1,6 @@
 # Internship
 
-Here there are the codes used for the containerization of apps PredGPI (https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-9-392) and BaCeLlo (https://academic.oup.com/bioinformatics/article/22/14/e408/228072).
+Here there are the codes used for the containerization of apps [PredGPI](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-9-392) and [BaCeLlo](https://academic.oup.com/bioinformatics/article/22/14/e408/228072).
 
 # Requiremnets
 
@@ -12,5 +12,6 @@ To specify the path of your input directory, you would need to modify the .env f
 The rest of the redirecting no needs to be modified, otherwise all scripts need to be updated. 
 
 To run the first application (PredGPI), run the command: 
-
+```
 docker-compose -f docker-compose-predgpi.yml up --build
+```
