@@ -2,7 +2,7 @@
 
 Here there are the codes used for the containerization of apps [PredGPI](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-9-392) and [BaCeLlo](https://academic.oup.com/bioinformatics/article/22/14/e408/228072).
 
-# Requiremnets
+# Requirements
 
 Install [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/) on your machine.
 Python3 and all other dependecies of the applications are already in the personalized image.
