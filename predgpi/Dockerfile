@@ -1,4 +1,4 @@
-FROM pred_app1:latest
+FROM mapoferri/traineership:pred_app1
 #FROM ubuntu_predgpi:latest
 
 WORKDIR /home/predgpi_app
