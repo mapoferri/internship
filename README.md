@@ -18,7 +18,7 @@ docker-compose -f docker-compose-predgpi.yml up --build
 
 The results will appear as output directory in the input local one. 
 
-For the BaCelLo app, all the codes necessary for the containerized infrastructure to run are in the [bacello] subdirectory. 
+For the BaCelLo app, all the codes necessary for the containerized infrastructure to run are in the *bacello* subdirectory. 
 To run the second application so, run the command:
 
 ```
