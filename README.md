@@ -24,3 +24,6 @@ To run the second application so, run the command:
 ```
 docker-compose -f docker-compose.yml up --build
 ```
+
+Currently implementing Python Classes to automize the work. 
+Regular updates.
